@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Interior Design</title>
+    <link rel="icon" type="x-icon" href="images/logo-no-background-removebg-preview.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="contact.js"></script>
+</head>
+
+<body>
+    <header class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo-no-background.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick=hidemenu()></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="Interior.html">Interior</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick=showmenu()></i>
+        </nav>
+        <h1>Contact US</h1>
+
+    </header>
+
+
+
+    <main>
+
+        <section class="location"></section>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1848560.5079248217!2d65.83894858166863!3d25.187376481251327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1722935761554!5m2!1sen!2s"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class='bx bxs-home'></i>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Karachi, Sindh, PK</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class='bx bx-phone'></i>
+                        <span>
+                            <h5>+1 234567890</h5>
+                            <p>Monday to Saturday, 10AM to 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class='bx bx-envelope'></i>
+                        <span>
+                            <h5>someone@gmail.com</h5>
+                            <p>Email Us Your Query</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="contact-col">
+<form action="" id="form">
+    <input type="text" placeholder="Enter Your Name" id="name" required>
+    <input type="email" placeholder="Enter Your Email" id="email"  required>
+    <input type="number" placeholder="Enter Your Number" id="number"  required>
+    <textarea rows="8" placeholder="Message" id="feedback"  required></textarea>
+    <button type="submit" class="hero-btn red" onclick="submit()" >Send Message</button>
+</form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <h4>About US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Fugiat ad consequatur nobis dolorum sapiente
+            laboriosam odio eum maxime quo obcaecati beatae, tempora voluptatibus repellat quibusdam doloremque soluta
+            eligendi. Obcaecati, odit!</p>
+
+        <div class="icons">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin-square'></i>
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> by Easy Tutorials</p>
+
+    </footer>
+    <!-- making navbar -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu() {
+            navLinks.style.right = "0";
+            navLinks.style.display="block"
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+            navLinks.style.display="none"
+        }
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Interior Design</title>
+    <link rel="icon" type="x-icon" href="images/logo-no-background-removebg-preview.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo-no-background.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick=hidemenu()></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="Interior.html">Interior</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick=showmenu()></i>
+        </nav>
+        <h1>BLOG</h1>
+
+    </header>
+
+
+
+    <main>
+
+        <section class="blog-content">
+<div class="row">
+    <div class="left-col">
+            <div class="blog-left">
+                <img src="https://149658287.v2.pressablecdn.com/wp-content/uploads/2021/12/chrislovesjulia1.jpg" alt="">
+
+                <h2>The Best Interior Design Blogs to Follow in 2024</h2>
+                <p>Since 2020, the importance of home and how we live in our space has continued to be top of mind for
+                    so many people. We purchased a new home in North Carolina, moving after 23 years of living in Los
+                    Angeles because, remote work, thankfully, is here to stay.
+                    <br>
+                    While we worked with an interior design firm in LA to help us with the majority of the project, we
+                    will have to finish the bells and whistles (styling and accessories) over time. But, that’s really
+                    as it should be. Your house should feel collected, not like you went to Crate and Barrel and just
+                    bought everything from the latest designer’s collaboration (note to self!).
+                    <br>
+                    There are so many resources for design, and while I do love a great home tour for inspiration, my
+                    favorite blogs are the ones that actually give solid tips and help you figure out what size rug you
+                    need or what kind of side table would work next to your sofa. On that note, I have rounded up my
+                    favorite design blogs that check all of those boxes. If you have a favorite that I missed, let me
+                    know in the comments. Have a wonderful holiday season!
+                </p>
+<div class="comment-box">
+    <h3>Leave A Comment</h3>
+    <form  class="comment-form">
+       <input type="text" placeholder="Enter Name"> 
+       <input type="email" placeholder="Enter Email">
+ <textarea rows="5" placeholder="Your Comment"></textarea>
+ <button type="submit" class="hero-btn red" >POST COMMENT</button>
+    </form>
+</div>
+            </div>
+        </div>
+<div class="right-col">
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Interior</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Exterior</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Background</span>
+                    <span>20</span>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h4>About US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Fugiat ad consequatur nobis dolorum sapiente
+            laboriosam odio eum maxime quo obcaecati beatae, tempora voluptatibus repellat quibusdam doloremque soluta
+            eligendi. Obcaecati, odit!</p>
+
+        <div class="icons">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin-square'></i>
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> by Easy Tutorials</p>
+
+    </footer>
+    <!-- making navbar -->
+    <script>
+            function showmenu() {
+            navLinks.style.right = "0";
+            navLinks.style.display="block"
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+            navLinks.style.display="none"
+        }
+
+    </script>
+</body>
+
+</html>

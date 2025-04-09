@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .banner {
@@ -114,8 +114,11 @@ nav .bx{
         width: 200px;
         top: 0;
         display: none;
-        z-index: 2;
+        z-index: 9999;
         transition: 1s ease-in; 
+    }
+    nav img{
+        width: 200px;
     }
 nav .bx{
     display: block;
